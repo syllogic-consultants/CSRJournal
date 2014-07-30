@@ -1,0 +1,63 @@
+@media screen and (max-width: 435px){
+    .top_logo {
+        display: block;
+        float: none;
+        margin: 2px auto;
+    }
+    .top_logo img {
+        display: block;
+        margin: 0 auto;
+        width: 130px;
+    }
+    #top-header .container, #second-menu {
+        background: #FFF;   
+        width: 100%;
+        border: 2px solid #000;
+    }
+    .mobile_nav:before, .mobile_nav:after {
+        background:none;
+        color:#000;
+    }
+    .mobile_nav {
+        color:#0c4d9f;
+    }
+    .mobile_nav:hover {
+        color:#1081c5;
+    }
+    ul#top-menu li ul, #mobile_menu {
+        background:#FFF;
+        border: 2px solid #000;
+    }
+    ul#top-menu ul li, #mobile_menu li a {
+        width:168px;
+        color:#0c4d9f;
+        background: none;
+    }
+    .et_mobile_menu li.current-menu-item > a, .et_mobile_menu a:hover {
+    color: #f68922;
+    text-decoration: none;
+    }
+    .mobile_nav {
+    display: inline-block;
+    text-shadow: 0px 0px 0 rgba(0, 0, 0, 0.6);
+    font-weight: bolder;
+    }
+    
+}
+@media only screen and ( max-width: 479px ) {
+	.latest .thumb, .entry .thumb{
+		display: block;
+	}
+	.latest .thumb{
+		margin-left: 45px;
+	}
+	.latest h3.title {
+		clear: both;
+	}
+	#short_code_si_icon{
+		right:3%; 
+	}
+	#short_code_si_icon img {
+		width: 25px;
+	}
+}
